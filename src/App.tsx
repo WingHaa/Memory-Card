@@ -1,8 +1,13 @@
-import React from "react";
-import "./App.css";
+import Main from "./layouts/Main";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      {/* <Header /> */}
+      <Main />
+      {/* <Footer /> */}
+    </>
+  );
 }
 
 export default App;
