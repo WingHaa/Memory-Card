@@ -12,7 +12,6 @@ export default function Main() {
     } else {
       setChosenCard([]);
     }
-    console.log(chosenCard.length, highestScore);
   }
 
   useEffect(() => {

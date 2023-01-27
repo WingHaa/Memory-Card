@@ -10,12 +10,8 @@ import queenOfPain from '../assets/images/queen-of-pain.png'
 import ursa from '../assets/images/ursa.png'
 import vengefulSpirit from '../assets/images/vengeful-spirit.png'
 import viper from '../assets/images/viper.png'
+import { Card } from '../models/Card'
 
-export interface Card {
-  id: number;
-  description: string;
-  image: string;
-}
 export const cards: Card[] = [
   {
     id: 0,
