@@ -4,16 +4,21 @@ html {
   background: #36393f;
 }
 
+html,
+body,
+#root {
+  height: 100%;
+}
+
 .header,
 .footer {
   text-align: center;
   color: #bf2e1a;
   background: #292b2f;
+  flex-shrink: 0;
 }
 
 .footer {
-  position: absolute;
-  bottom: 0;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -33,16 +38,13 @@ html {
 
 #root {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
   font-family: "Noto Sans", sans-serif;
-}
-
-#root > * {
-  flex: 1 100%;
 }
 
 #main {
   color: #ffffff;
+  flex: 1 0 auto;
 }
 
 .score-board {
