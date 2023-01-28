@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.2be18f57.css",
+    "main.css": "./static/css/main.d0b4ade2.css",
     "main.js": "./static/js/main.b125a211.js",
     "static/media/dragon-knight.png": "./static/media/dragon-knight.19167478739a5d010a28.png",
     "static/media/magnus.png": "./static/media/magnus.f55e682c481025cd55ed.png",
@@ -15,11 +15,11 @@
     "static/media/phantom-assassin.png": "./static/media/phantom-assassin.8c8ca82008a2fa293e24.png",
     "static/media/queen-of-pain.png": "./static/media/queen-of-pain.1b267c55dcd71f180757.png",
     "index.html": "./index.html",
-    "main.2be18f57.css.map": "./static/css/main.2be18f57.css.map",
+    "main.d0b4ade2.css.map": "./static/css/main.d0b4ade2.css.map",
     "main.b125a211.js.map": "./static/js/main.b125a211.js.map"
   },
   "entrypoints": [
-    "static/css/main.2be18f57.css",
+    "static/css/main.d0b4ade2.css",
     "static/js/main.b125a211.js"
   ]
 }
