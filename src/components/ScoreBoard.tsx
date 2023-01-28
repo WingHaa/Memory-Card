@@ -4,7 +4,7 @@ interface Prop {
 }
 export function ScoreBoard({ highestScore, currentScore }: Prop) {
   return (
-    <div>
+    <div className="score-board">
       <p>Highest Score: {highestScore}</p>
       <p>Current Score: {currentScore}</p>
     </div>
